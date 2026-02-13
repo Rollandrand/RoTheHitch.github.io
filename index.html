@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rolland RANDRIAMANAMPY | Liens officiels</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #111827;
+      --accent: #2563eb;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      color: var(--text);
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+
+      background: 
+        linear-gradient(270deg, rgba(255,106,0,0.4), rgba(238,9,121,0.4), rgba(33,147,176,0.4), rgba(109,213,237,0.4)),
+        url('imagedefond.jpg') no-repeat center center fixed;
+      background-size: 800% 800%, cover;
+      background-blend-mode: overlay;
+
+      animation: gradientMove 10s ease infinite;
+      transition: animation-duration 0.3s;
+    }
+
+    body:hover {
+      animation-duration: 3s;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      background: rgba(0,0,0,0.6);
+      padding: 1.5rem;
+      border-radius: 20px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+      max-width: 400px;
+      width: 90%;
+      text-align: center;
+    }
+
+    img.avatar {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border: 3px solid var(--accent);
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      margin-bottom: 0.3rem;
+      color: white;
+    }
+
+    p.bio {
+      font-size: 0.95rem;
+      color: white;
+      margin-bottom: 1.5rem;
+    }
+
+    a.link {
+      display: block;
+      text-decoration: none;
+      color: white;
+      background: var(--accent);
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border-radius: 12px;
+      font-weight: 600;
+      transition: transform 0.2s ease, background 0.3s ease;
+    }
+
+    .link i {
+      margin-right: 10px;
+    }
+
+    a.link:hover {
+      background: #f7cfc7;
+      transform: scale(1.05);
+      color: black;
+    }
+
+    .social-icons {
+      margin-top: 1.5rem;
+    }
+
+    .social-icons a {
+      color: white;
+      font-size: 1.8rem;
+      margin: 0 10px;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.3);
+      color: var(--accent);
+    }
+
+    footer {
+      margin-top: 1.5rem;
+      font-size: 0.9rem;
+      color: #ddd;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Photo -->
+    <img src="Rolland.jpeg" alt="Photo de profil" class="avatar">
+
+    <!-- Nom -->
+    <h1>Rolland RANDRIAMANAMPY</h1>
+    <p class="bio">Passionné de management & business, voyage, art, sport</p>
+
+    <!-- Liens principaux -->
+    <a href="tel:+261349289556" class="link">
+      <i class="fas fa-phone"></i> Appeler
+    </a>
+
+    <a href="mailto:rollandrandria102@gmail.com" class="link">
+      <i class="fas fa-envelope"></i> Email
+    </a>
+
+    <a href="https://m.me/ch/AbaD6wdhKwSs1CoM/?send_source=cm:copy_invite_link" target="_blank" class="link">
+      <i class="fas fa-plane"></i> Mes Voyages
+    </a>
+
+    <a href="#" target="_blank" class="link">
+      <i class="fas fa-briefcase"></i> Mes parcours en Management
+    </a>
+
+    <a href="videos.html" target="_blank" class="link">
+      <i class="fas fa-video"></i> MadTinyMakiTravel
+    </a>
+
+    <!-- Réseaux sociaux -->
+    <div class="social-icons">
+      <a href="https://facebook.com/tonprofil" target="_blank">
+        <i class="fab fa-facebook"></i>
+      </a>
+
+      <a href="https://instagram.com/tonprofil" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <a href="https://tiktok.com/@tonprofil" target="_blank">
+        <i class="fab fa-tiktok"></i>
+      </a>
+
+      <a href="https://linkedin.com/in/tonprofil" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+
+    <footer>© 2025 RoTheHitch.Lab — All rights reserved</footer>
+
+  </div>
+</body>
+</html>
